@@ -1,0 +1,9 @@
+cron:
+- description: "active-campaign"
+  url: /tasks/summary
+  schedule: every 6 hours
+- description: "adpage-leads"
+  url: /mail/weekly
+  schedule: every day 02:00
+  timezone: Australia/NSW
+  target: beta
